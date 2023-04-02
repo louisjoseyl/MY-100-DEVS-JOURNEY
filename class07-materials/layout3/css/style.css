@@ -68,6 +68,11 @@ main > section + section section{
   border: 1px solid black;
 }
 
+main + section{
+  width: 33.3333%;
+  float: left;
+}
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
