@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+}
+
+header, footer{
+  height: 100px;
+  border: 1px solid black;
+  clear: both;
+}
+
+.first{
+  height: 150px;
+  border: 1px solid black;
+}
+div{
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+}
+.div1{
+  width: 33.3%;
+}
+.div2{
+  width: 66.6%;
+}

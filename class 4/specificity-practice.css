@@ -1,0 +1,18 @@
+/*please make only rhino and zebra blue*/
+.africa{
+  color: blue;
+}
+/*please make only hufflepuff gold*/
+#bestHouse{
+  color: gold;
+}
+/*please select duck with the highest level of specificity possible*/
+html body h1#hi + section.top +section.middle +article.areDucksDinosaurs h2.likesToQauck.fight10r100{
+  color: rgb(73, 175, 107);
+}
+/*please select rhino with the highest level of specificity possible*/
+/**/
+html head + body h1#hi + section.top #rhino.africa.fourLegs{
+  color: rgb(243, 247, 20);
+}
+

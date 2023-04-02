@@ -1,0 +1,80 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header, footer {
+     height: 200px;
+     border: 2px solid black;
+
+}
+.impo{
+     display: flex;
+}
+section#first p{
+     display: none;
+}
+.impo section{
+     height: 200px;
+     border: 2px solid black;
+     flex: 1;
+}
+
+@media screen and (max-width: 480px) {
+     section.impo{
+          display: block;
+     }
+     #first{
+          background: purple;
+     }
+     .impo section#first p{
+          color: white ;
+          display: list-item;
+     }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+     #first + section{
+          background: purple;
+     }
+     .impo section{
+          flex: auto;
+     }
+     .impo section#first p{
+          color: rgb(19, 18, 18) ;
+          display: list-item;
+          font-weight: bolder;
+          font-size: 1.5rem;
+     }
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

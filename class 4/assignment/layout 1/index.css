@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+}
+
+header, footer{
+  height: 100px;
+  border: 2px solid black;
+  clear: both;
+}
+
+.first div{
+  height: 150px;
+  width: 33.33%;
+  border: 2px solid black;
+  float: left;
+}
+.sec div{
+  height: 200px;
+  width: 50%;
+  border: 2px solid black;
+  float: left;
+}

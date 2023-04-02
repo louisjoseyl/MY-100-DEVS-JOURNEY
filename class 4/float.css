@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+}
+header, footer{
+  height: 100px;
+  border: 2px solid gold;
+  clear: both;
+}
+
+section{
+  height: 300px;
+  width: 33.33%;
+  float: left;
+  border: 2px solid green;
+}
+#j{
+  margin-left:0;
+}
