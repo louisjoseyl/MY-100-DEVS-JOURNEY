@@ -68,7 +68,7 @@ main > section + section section{
   border: 1px solid black;
 }
 
-main + section{
+main + section > section{
   width: 33.3333%;
   float: left;
 }
