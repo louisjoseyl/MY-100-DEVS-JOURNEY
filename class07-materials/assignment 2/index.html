@@ -11,6 +11,10 @@
     <!-- external CSS link -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/51dc32c308.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -26,8 +30,8 @@
       </nav>
     </header>
     <main>
-      <section>
-        <div>
+      <section class="first-section">
+        <div class="first-div">
           <span>TAGLINE</span>
           <h1>
             Source helps <br />
@@ -35,7 +39,8 @@
             of what they love
           </h1>
           <form action="">
-            <input type="text" value="Placeholder" />
+            <input id="search" type="text" value="Placeholder" />
+            <label for="search">Button</label>
           </form>
           <p>
             A device that enables collaboration will lessen <br />
@@ -43,9 +48,11 @@
             redone.
           </p>
         </div>
-        <div></div>
+        <div class="second-div"></div>
+      </section>
+      <section>
         <div class="features-section">
-          <div>
+          <div class="features-div">
             <img src="#" alt="" />
             <h3>Feature one</h3>
             <p>
@@ -55,7 +62,7 @@
             </p>
             <a href="#"><span>First link ></span></a>
           </div>
-          <div>
+          <div class="features-div">
             <img src="#" alt="" />
             <h3>Feature two</h3>
             <p>
@@ -65,7 +72,7 @@
             </p>
             <a href="#"><span>Second link ></span></a>
           </div>
-          <div>
+          <div class="features-div">
             <img src="#" alt="" />
             <h3>Feature three</h3>
             <p>
@@ -75,7 +82,7 @@
             </p>
             <a href="#"><span>Third link ></span></a>
           </div>
-          <div>
+          <div class="features-div">
             <img src="#" alt="" />
             <h3>Feature four</h3>
             <p>
@@ -87,18 +94,18 @@
           </div>
         </div>
       </section>
-      <section>
-        <h2>
-          Collecting information <br />
-          about the problem
-        </h2>
-        <p>
-          In the context of information architecture, information is separate
-          from <br />
-          both knowleddge and data, and lies nebulously between them.
-        </p>
-      </section>
     </main>
+    <section class="last-section">
+      <h2>
+        Collecting information <br />
+        about the problem
+      </h2>
+      <p>
+        In the context of information architecture, information is separate from
+        <br />
+        both knowleddge and data, and lies nebulously between them.
+      </p>
+    </section>
 
     <script type="text/javascript" src="js/main.js"></script>
   </body>

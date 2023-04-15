@@ -24,6 +24,7 @@
 
 body {
   background: #f5f9fc;
+  font-size: 62.5%;
 
 }
 
@@ -32,12 +33,13 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-  margin-top: 20px;
 }
 
 nav{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 40px;
+  font-size: 1rem;
 }
 nav p {
   margin: 0;
@@ -67,18 +69,96 @@ a{
 }
 
 nav a span{
-  padding: 10px 15px;
+  padding: 10px 20px;
   color: white;
   background: #304659;
   font-weight: bold;
 
 }
+
+main{
+  padding: 10% 10% 5% 10%;
+  font-size: 1rem;
+  background: image();
+}
+.first-section{
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.first-div, .second-div{
+  display: ;
+  
+}
+.first-div{
+  width: 50%;
+}
+.second-div{
+  width: 50%;
+}
+.second-div .fa-light{
+  height: 800px;
+  width: 100%;
+}
+.first-section span{
+  color: #859AAD;
+  font-weight: bold;
+}
+.first-section h1{
+  color: #2D4255;
+  font-size: 3rem;
+}
+.first-section form{
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.first-section input{
+  border: none;
+  background: #E1E9F0;
+  padding: 15px 70px 15px 15px ;
+  color: #9AADBD;
+}
+.first-section label{
+  background: #304659;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: white;
+}
+.first-section p{
+  color: #41576B;
+  margin: 30px 0;
+  font-size: 1.1rem;
+}
 .features-section{
   display: flex;
   justify-content: space-between;
 }
+.features-div h3{
+  color: #263C50;
+}
+.features-div span{
+  color: #2C4255;
+  font-weight: bold
+}
 
-
+.features-div p{
+  color: #4A6072;
+}
+.last-section{
+  padding: 4% 10%;
+  height: 400px;
+  background: white;
+}
+.last-section h2{
+  font-size: 3.5rem;
+  color: #2B4052;
+  margin: 0;
+}
+.last-section p{
+  color: #93A6B6;
+  font-size: 1.3rem;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
