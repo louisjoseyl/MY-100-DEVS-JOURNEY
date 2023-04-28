@@ -11,7 +11,28 @@
 /* LAYOUT
 /*******************************************/
 
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
 
+ul{
+  width: 50%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
